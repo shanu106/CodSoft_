@@ -19,7 +19,10 @@
 body::-webkit-scrollbar{
     display: none;
 }
-
+   .keshav{
+      background-image:url("keshav.jpeg");
+      background-size:cover;
+   }
 
 .mmenu{
     width: 5vw;
