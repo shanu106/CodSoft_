@@ -257,10 +257,7 @@ width: 13em;
        transform:  scale(0.9);
         
     }
-   .keshav{
-      background-image:url("keshav.jpeg");
-      background-size:cover;
-   }
+   
     .ln{
         border: 2px solid black;
        
@@ -819,6 +816,10 @@ width: 13em;
     .am, .sun, .abc , .xyz{
         background-image: url("1a1aq.jpg");
     }
+   .keshav{
+      background-image:url("keshav.jpeg");
+      background-size:cover;
+   }
     .excon p{
         color: #eb5e28;
         margin-top: 25px;
