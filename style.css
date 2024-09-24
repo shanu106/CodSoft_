@@ -6,6 +6,9 @@
 
 
     }
+   body{
+    overflow-x: hidden;
+}
 
 #loader h1{
     color: transparent;
