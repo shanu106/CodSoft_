@@ -723,7 +723,9 @@ justify-content: center;
 .abc, .xyz, .am, .sun{
     background-image: url("1a1aq.jpg");
 }
-
+.tic{
+   background-image:url("tic\ tac\ toe.jpeg");
+}
 #bc5{
     display: none;
 }
