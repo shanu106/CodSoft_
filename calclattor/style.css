@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 0  0;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+h1{
+    /* top: 10%; */
+    color:orangered;
+    text-align: center;
+    /* line-height: 4em; */
+}
+.con{
+    height: 100vh;
+    width: 100%;
+    background-color: #333;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #fff;
+    justify-content: center;
+}
+.calculator{
+    height: 45em;
+    width: 100%;
+    /* background-color: #007bff; */
+    border-radius: 12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+
+    
+}
+.dis{
+    height: 15%;
+    width: 100%;
+    /* background-color: #ff00b3; */
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 2px solid black; */
+    align-items: end;
+}
+input[type="text"]{
+    background-color: transparent;
+    /* margin-right: 10px; */
+    padding-right: 20px;
+    height: 50%;
+    text-align: end;
+    border-top-right-radius: 70px;
+    border-top-left-radius: 70px;
+    width: 100%;
+    /* border-radius: 30%; */
+    border: none;
+    border: 1px solid #c1c1c1;
+    font-size: 5em;
+    outline: none;
+    color: aliceblue;
+}
+form,.btns{
+    width: 30em;
+    height: 85%;
+    /* background-color: red; */
+    display: flex;
+    
+    flex-wrap: wrap;
+
+    justify-content: space-evenly;
+    align-items: center;
+    z-index: 99999;
+    
+}
+.btns{
+    border: 2px solid gray;
+}
+form{
+    border-bottom: 2px soloid rgb(0, 0, 0);
+}
+input[type="button"]{
+    background-color: transparent;
+    height: 6vw;
+    width: 6vw;
+    border-radius: 50%;
+    font-size: 2em;
+    border: 1px dotted gray;
+    color: #f4f4f4;
+    z-index: 999;
+    background-color: red;
+    cursor: pointer;
+}
+@media (min-width) {
+    
+}
