@@ -81,6 +81,7 @@ html{
         position: relative;
         height: 100%;
         width: 100%;
+        overflow-x: hidden;
         background-color: #403d39;
     }
     .main{
@@ -145,7 +146,7 @@ html{
         width: 40%;
         /* background-color: red; */
         /* margin-right: 30PX; */
-        position: fixed;
+        /* position: fixed; */
         /* height: 100%; */
         z-index: 999;
         border-bottom:1px solid grey;
@@ -520,9 +521,9 @@ width: 13em;
 
     }
     .p3{
-        height: 50vw;
+        height: 100vw;
         width: 100%;
-        margin-top: 14em;
+        /* margin-top: 14em; */
         position: relative;
         /* background-color: red; */
         /* display: flex; */
@@ -585,8 +586,9 @@ width: 13em;
     }
     .exin{
         width: 100%;
-        height: 50%;
+        height: 30%;
         /* background-color: green; */
+        overflow: hidden;
         display: flex;
         /* align-items: center; */
         justify-content: space-around;
@@ -594,7 +596,7 @@ width: 13em;
     }
     .is ,.ibm{
         height: 19em;
-        width: 30%;
+        width: 50%;
         margin-top: 5%;
         /* background-color: blue;   */
         border-radius: 45PX;
@@ -655,23 +657,19 @@ width: 13em;
     line-height: 2em;
     
     }
-    .ibm ul{
     
-        margin-left: 10%;
-        line-height: 2em;
-        color: #ffffffdf;
-    }
     .edin{
         /* height: 80%; */
     width: 100%;
     height: 50%;
-    margin-top: 12em;
+    margin-top: -4em;
     position: relative;
     /* background-color: rgb(0, 4, 255); */
+
     }
     
     .clg, .hsc , .hc{
-        height: 60%;
+        height: 40%;
         width: 30%;
         position: relative;
         background-color: transparent;
@@ -685,7 +683,7 @@ width: 13em;
         color: #eb5e28;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     /* font-size: 2em; */
-    margin-top: 5%;
+    /* margin-top: 5%; */
     font-weight: 1500;
     margin-left: 10%;
     
@@ -694,9 +692,10 @@ width: 13em;
     .enin{
         height: 100%;
         width: 100%;
-        /* background-color: blue; */
+        /* background-color: red; */
         display: flex;
-        align-items: center;
+        align-items: start;
+
         justify-content: space-around;
     }
     .clg h6, .hsc h6 ,.hc  h6{
@@ -746,7 +745,7 @@ width: 13em;
         width: 100%;
         /* background-color: red; */
         /* margin-top: 50%; */
-        margin-top: 38em;
+        /* margin-top: -38em; */
         position: relative;
     }
     .project h1{
@@ -807,18 +806,22 @@ width: 13em;
         box-shadow: 10px 10px 10px 10px black;
         /* background-color: rgb(255, 0, 140); */
     }
+    .ecom{
+        background-image: url("ecommerce-2140603_1280.webp");
+       
+    }
     body::-webkit-scrollbar{
         display: none;
     }
     .rock{
         background-image: url("ssee-removebg-preview.png");
     }
-    .am, .sun, .abc , .xyz{
+    .sun, .abc , .xyz{
         background-image: url("1a1aq.jpg");
     }
-   .keshav{
-      background-image:url("keshav.jpeg");
-      background-size:cover;
+   .shadab{
+      background-image:url("Shadab.jpg");
+      background-size:contain;
    }
     .excon p{
         color: #eb5e28;
