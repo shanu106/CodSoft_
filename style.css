@@ -810,6 +810,9 @@ width: 13em;
         background-image: url("ecommerce-2140603_1280.webp");
        
     }
+    /* .uber{
+        background-image: url("uber.jpg");
+    } */
     body::-webkit-scrollbar{
         display: none;
     }
@@ -817,7 +820,7 @@ width: 13em;
         background-image: url("ssee-removebg-preview.png");
     }
     .sun, .abc , .xyz{
-        background-image: url("1a1aq.jpg");
+        background-image: url("uber.jpg");
     }
    .shadab{
       background-image:url("Shadab.jpg");
